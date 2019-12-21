@@ -1,5 +1,3 @@
 #!/bin/bash
 
-read -p "Введите число A : " A
-read -p "Введите число B : " B
-echo "A + B = $(($A+$B))"
+echo "$1 $2" | awk '{printf "%.2f \n", $1+$2}'
