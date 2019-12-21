@@ -1,0 +1,3 @@
+#!/bin/bash
+curl -s "https://link.hey-clay.com/test.txt" | wc -l
+
